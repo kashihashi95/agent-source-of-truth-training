@@ -27,7 +27,7 @@ The practice works with any coding agent (Claude Code, Codex, Antigravity and ot
 
 ## Quick start
 
-You need Node.js 18 or later. No packages to install.
+You need Node.js (tested on 24; see [TESTED.md](TESTED.md)). No packages to install.
 
 ```
 cd lab/starter
