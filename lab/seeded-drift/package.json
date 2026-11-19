@@ -1,0 +1,13 @@
+{
+  "name": "village-sim-seeded-drift",
+  "version": "1.0.0",
+  "description": "The agent's Smokehouse build, for the drift hunt.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
