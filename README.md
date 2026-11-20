@@ -44,7 +44,6 @@ Then open the [Flowboard live demo](https://kashihashi95.github.io/flowboard/), 
 - **Any agent.** The instruction file is plain `AGENTS.md`, with a one-line `CLAUDE.md` that points to it. Learners can use whichever agent they have.
 - **Measured by behavior.** The measurement plan counts things a team already sees: rework requests, decisions lost between sessions, and drift caught before merge versus after.
 
-<!-- JEFF: please reread this section -->
 ## Why I built this
 
 I build games and apps with AI coding agents: Claude Code, Codex and Antigravity. I kept running into the same problems. A new implementation would lose features that already worked. In long sessions the agent seemed "lazier" and skipped details it had followed before. My guess was that the context had been compacted too much. Sometimes the agent made a task list and only implemented some of it.
@@ -54,6 +53,8 @@ So I moved the design onto a Flowboard board and made it the source of truth. Fo
 Now the agent reads the board before it starts working and updates it before it ends. I change what I want on the flow. The agent runs a logic check and helps connect concepts together. I noticed a lot of shortsightedness before I worked this way. Then it carries the changes into the code base, and it helps catch bugs too. Those logic checks have caught problems before anything was built. In one case, adding charging boars to the enemy list would have made grown-ups hide, sent anyone armed to fight, and called my scout home mid-trip. All three were fixed before building.
 
 I use the same practice on a space game, which I started in Antigravity and moved to Claude Code, and on a mobile app for tracking a sourdough starter. This module teaches that loop so other developers can use it with whatever agent they have.
+
+I designed this module from my own workflow; Claude Code helped draft and build the materials.
 
 ## Sources
 
